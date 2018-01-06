@@ -1,0 +1,148 @@
+<html>
+        <style>
+                /* Show More Pattern CSS */
+            
+                @media only screen and (max-width: 599px) {
+                    table[class="pattern"] .story p {
+                        max-height: 98px;
+                        margin-bottom: 14px;
+                        overflow: hidden;
+                    }
+                    table[class="pattern"] #story1:target p,
+                    table[class="pattern"] #story2:target p,
+                    table[class="pattern"] #story3:target p {
+                        max-height: 999px;
+                    }
+                    table[class="pattern"] .readmore {
+                        position: relative;
+                        display: inline-block !important;
+                        width: auto !important;
+                        height: auto !important;
+                        max-width: inherit !important;
+                        max-height: inherit !important;
+                        overflow: visible !important;
+                        float: none !important;
+                        font-size: 12px !important;
+                        font-weight: bold;
+                        color: #999 !important;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                    table[class="pattern"] .readmore:after {
+                        content: '';
+                        position: absolute;
+                        top: 3px;
+                        right: -20px;
+                        display: block;
+                        border-left: 6px solid transparent;
+                        border-right: 6px solid transparent;
+                        border-top: 6px solid #999;
+                    }
+                }
+            
+                @media only screen and (max-width: 500px) {
+                    table[class="pattern"] .story p {
+                        max-height: 80px;
+                    }
+                }
+            
+                @media only screen and (max-width: 400px) {
+                    table[class="pattern"] .story p {
+                        max-height: 50px;
+                    }
+                }
+            
+                @media only screen and (max-width: 300px) {
+                    img {
+                        max-height: 60%;
+                    }
+                }
+            </style>
+            
+            <table cellpadding="0" cellspacing="0" class="pattern">
+                <tr>
+                    <td class="story" id="story1" width="400" align="left" valign="top" style="border-bottom: 1px dotted #999; font-family: arial,sans-serif; font-size: 14px; color: #333; padding: 0 0 16px 0;">
+            
+                        <h1 style="text-align: center; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">UMOS TECHHIRE</h1>
+            
+                        <a href="https://www.umos.org/" target="_blank">
+                        <img src="https://www.umos.org/images/building_better_futures.jpg" alt="Image of UMOS webpage, People smiling" style="width:100%; height:60%; margin:auto">
+                        </a>
+            
+            
+                        <h3 style="text-align: center; font-family:Lucida Sans Unicode, Lucida Grande, sans-serif">
+                            2701 S Chase Ave, Milwaukee, WI 53207
+                        </h3>
+            
+                    </td>
+                </tr>
+                <tr>
+                    <td width="400" align="left" valign="top" style="padding: 20px; background: #666; font-family: arial,sans-serif; font-size: 14px; line-height: 18px; color: #fff;">
+                        <h2 style="text-align: center; font-family:Lucida Sans Unicode, Lucida Grande, sans-serif">WEB DEVELOPER TRAINING</h2>
+                        <p>
+                            <ul>
+                                <li>Self-paced up to six months</li>
+                                <li>FREE to you</li>
+                                <li>Access to hundreds of industry standard technology certifications</li>
+                                <li> Web-based portfolio for job seeking</li>
+                                <li>Direct connection to potential employers & internship experiences</li>
+                            </ul>
+                        </p>
+            
+                    </td>
+                </tr>
+                <tr>
+                    <td class="story" id="story3" width="600" align="left" valign="top" style="font-family: arial,sans-serif; font-size: 14px; color: #333; padding: 16px 0 0 0">
+                        <a href="https://www.umos.org/corporate/contact_umos.html" target="_blank" style="text-decoration:none">
+                                <button  style="background-color: #4CAF50; /* Green */
+                                
+                                border-radius: 10px;
+                                border: none;
+                                color: white;
+                                padding: 15px 32px;
+                                text-align: center;
+                                text-decoration: none;
+                                width:100%;
+                                display:block;
+                                font-size: 16px;
+                                margin: auto;
+                                cursor: pointer;
+                                -webkit-transition-duration: 0.4s; /* Safari */
+                                transition-duration: 0.4s;
+                                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)";>CONTACT US</button></a><br>
+                        <p style="text-align: center; color: #3F53AA">Subscribe to our newsletter <a href="https://www.umos.org/corporate/mailing_list_signup.html" target="_blank"
+                                style="color:orange;">here.</a></p>
+                        <br>
+                        <h3 style="margin: 0;text-align:center">MORE</h3>
+                        <p style=" text-justify:distribute; padding: 20px 20px 20px 20px">
+                            UMOS recognizes that all participants do not learn in the same way. Therefore, the program offers various individualized
+                            training techniques that will be more productive and comfortable for participants, including:
+                            <ul style="padding-left:40px; padding-right: 40px">
+                                <li>Virtual training from any location with an internet connection</li>
+                                <li> Remote instructional and coaching support</li>
+                                <li> Web conferencing</li>
+                                <li>Face-to-face facilitated training work-group sessions in the UMOS Technology Center in Milwaukee, Wisconsin</li>
+                                <li>Classroom instructor-led sessions through collaboration with the College of Menominee Nation in Keshena
+                                    and Green Bay, Wisconsin.</li>
+                                <br>
+            
+                            </ul>
+            
+                        </p>
+                        <a class="readmore" href="#story3" style="display: none; width: 0; max-height: 0; max-width: 0; height: 0; overflow: hidden; float: left; font-size: 0; color: #fff">Read More</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="600" align="left" valign="top" style="padding: 20px; background: white; font-family: arial,sans-serif; font-size: 14px; line-height: 18px; color: #fff;border-radius:10px 10px 0 0">
+            
+                        <p style="color:#3F53AA; text-align:center">
+                            TechHire Director - Joni Theobald&nbsp <a href="tel:+1-414-588-8313" style="color:orange">+1 (414) 588-8313</a>                &copyUMOS, Inc 2018
+                        </p>
+                        <hr style="color:black; width:80%; margin:auto">
+            
+                    </td>
+                </tr>
+            
+            </table>
+            </html>
